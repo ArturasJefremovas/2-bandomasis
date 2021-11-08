@@ -1,7 +1,7 @@
 const serverURL = 'http://localhost:3000';
 
 class API {
-  static getFurniture = (success, failure) => {
+  static getToys = (success, failure) => {
     setTimeout(() => {
       fetch(`${serverURL}/toys`)
         .then(res => res.json())
@@ -10,7 +10,7 @@ class API {
     }, 1000);
   }
 
-  static deleteFurniture = (id, success, failure) => {
+  static deleteToys = (id, success, failure) => {
     fetch(`${serverURL}/toys/${id}`, { method: 'DELETE' })
       .then(res => res.json())
       .then(success)
@@ -18,13 +18,13 @@ class API {
   }
 }
 
-API.getFurniture(
+API.getToys(
   (duomenys) => console.log('gavau duomenis', duomenys), // success
   (klaida) => console.error('klaida!!!!', klaida) // failure
 )
 
 
-API.deleteFurniture(
+API.deleteToys(
   '1', // id
   (duomenys) => console.log('gavau duomenis', duomenys), // success
   (klaida) => console.error('klaida!!!!', klaida) // failure
