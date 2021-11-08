@@ -1,0 +1,66 @@
+{
+"toy" : [
+ {
+    "id": "111",
+    "title": "Lego",
+    "price": {
+      "currency": "$",
+      "amount": 50
+    },
+    "ageRestrictions": {
+      "from": 8
+    },
+    "discount": {
+      "type": "percentage",
+      "amount": 10
+    },
+    "imgSrc": "https://images.kaina24.lt/5897/11/lego-harry-potter-75978.jpg"
+  },
+  {
+        "id": "222",
+        "title": "Ball",
+        "price": {
+          "currency": "€",
+          "amount": 20
+        },
+        "ageRestrictions": {
+          "from": 3
+        },
+        "discount": {
+          "type": "toFixed",
+          "amount": 15
+        },
+        "imgSrc": "https://media.baamboozle.com/uploads/images/29607/1582532502_8907"
+      },
+       {
+            "id": "333",
+            "title": "",
+            "price": {
+              "currency": "€",
+              "amount": 30
+            },
+            "ageRestrictions": null,
+            "discount": {
+              "type": "amount",
+              "amount": 5
+            },
+            "imgSrc": "https://lilysfloristbali.com/images/detailed/1/Bali_Teddy.jpg"
+        },
+             {
+                "id": "444",
+                "title": "",
+                "price": {
+                  "currency": "€",
+                  "amount": 30
+                },
+                "ageRestrictions": null,
+                "discount": {
+                  "type": "amount",
+                  "amount": 5
+                },
+                "imgSrc": "https://lilysfloristbali.com/images/detailed/1/Bali_Teddy.jpg"
+            }
+        
+    ]
+}
+
